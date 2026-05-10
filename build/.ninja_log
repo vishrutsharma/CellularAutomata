@@ -1,0 +1,6 @@
+# ninja log v6
+17	266	8001095434293192	build.ninja	357d7a8c6d0ca23
+686	900	8000160471686527	GameOfLife.exe	f5d7f1cb4768815b
+330	484	8001064280009675	CellularAutomata.exe	d742c31b50427653
+39	750	8001062471187890	CMakeFiles/CellularAutomata.dir/main.cpp.obj	24d489114162160e
+6	330	8001064276691155	CMakeFiles/CellularAutomata.dir/source/cpp/Grid.cpp.obj	d3b2b342eb5f960c

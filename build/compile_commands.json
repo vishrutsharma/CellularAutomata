@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/GameOfLife/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe -IC:/Vishrut/Programming/PersonalProjects/GameOfLife/external/SDL2/include -IC:/Vishrut/Programming/PersonalProjects/GameOfLife/source/h -g -o CMakeFiles\\CellularAutomata.dir\\main.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\GameOfLife\\main.cpp",
+  "file": "C:\\Vishrut\\Programming\\PersonalProjects\\GameOfLife\\main.cpp",
+  "output": "CMakeFiles\\CellularAutomata.dir\\main.cpp.obj"
+},
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/GameOfLife/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe -IC:/Vishrut/Programming/PersonalProjects/GameOfLife/external/SDL2/include -IC:/Vishrut/Programming/PersonalProjects/GameOfLife/source/h -g -o CMakeFiles\\CellularAutomata.dir\\source\\cpp\\Grid.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\GameOfLife\\source\\cpp\\Grid.cpp",
+  "file": "C:\\Vishrut\\Programming\\PersonalProjects\\GameOfLife\\source\\cpp\\Grid.cpp",
+  "output": "CMakeFiles\\CellularAutomata.dir\\source\\cpp\\Grid.cpp.obj"
+}
+]
