@@ -2,6 +2,7 @@
 #include <ostream>
 #include <type_traits>
 #include <cstdint>
+#include <cmath>
 
 template <typename T>
 int INT_CAST(T num)
@@ -32,6 +33,11 @@ struct Vec2
 
     Vec2() = default;
     Vec2(T x_, T y_) : x(x_),y(y_){}
+
+    float Magnitude() const
+    {
+        return sqrtf(x*x + y*y);        
+    }
 
     Vec2 operator+(const Vec2& v) const{
         return {v.x + x,v.y + y};
