@@ -3,6 +3,7 @@
 #include <SDL_render.h>
 #include <vector>
 #include "Comp.h"
+#include "Input.h"
 
 namespace Grid
 {   
@@ -15,7 +16,6 @@ namespace Grid
         Node(SDL_Rect,int,int,IVec2);
     };
 
-    
 
     class GridManager
     {
@@ -28,7 +28,7 @@ namespace Grid
     public:
         void Generate(int,SDL_Rect&);
         void Render(SDL_Renderer*);
-        void Update();
+        void Update(Input&);
 
     };
 }

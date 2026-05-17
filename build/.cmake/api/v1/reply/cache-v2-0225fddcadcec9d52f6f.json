@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Vishrut/Programming/PersonalProjects/GameOfLife/build"
+			"value" : "c:/Vishrut/Programming/PersonalProjects/CellularAutomata/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Vishrut/Programming/PersonalProjects/GameOfLife/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Vishrut/Programming/PersonalProjects/CellularAutomata/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Vishrut/Programming/PersonalProjects/GameOfLife"
+			"value" : "C:/Vishrut/Programming/PersonalProjects/CellularAutomata"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Vishrut/Programming/PersonalProjects/GameOfLife/out/install/Clang"
+			"value" : "C:/Vishrut/Programming/PersonalProjects/CellularAutomata/out/install/Clang"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Vishrut/Programming/PersonalProjects/GameOfLife/build"
+			"value" : "C:/Vishrut/Programming/PersonalProjects/CellularAutomata/build"
 		},
 		{
 			"name" : "CellularAutomata_IS_TOP_LEVEL",
@@ -1351,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Vishrut/Programming/PersonalProjects/GameOfLife"
+			"value" : "C:/Vishrut/Programming/PersonalProjects/CellularAutomata"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

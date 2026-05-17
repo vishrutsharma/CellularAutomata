@@ -10,6 +10,12 @@ int INT_CAST(T num)
     return static_cast<int>(num);
 }
 
+template <typename T>
+float FLOAT_CAST(T num)
+{
+    return static_cast<float>(num);
+}
+
 
 enum ColorPreset : uint32_t
 {

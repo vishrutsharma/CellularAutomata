@@ -7,7 +7,7 @@ file(GLOB_RECURSE SRC_FILES
 )
 
 add_executable(CellularAutomata
-    main.cpp
+    source/main.cpp
     ${SRC_FILES}
 )
 

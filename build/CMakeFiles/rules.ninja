@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Vishrut\Paths\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Vishrut\Programming\PersonalProjects\GameOfLife -BC:\Vishrut\Programming\PersonalProjects\GameOfLife\build
+  command = C:\Vishrut\Paths\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Vishrut\Programming\PersonalProjects\CellularAutomata -BC:\Vishrut\Programming\PersonalProjects\CellularAutomata\build
   description = Re-running CMake...
   generator = 1
 

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Vishrut/Programming/PersonalProjects/GameOfLife
+# Install script for directory: C:/Vishrut/Programming/PersonalProjects/CellularAutomata
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Vishrut/Programming/PersonalProjects/GameOfLife/out/install/Clang")
+  set(CMAKE_INSTALL_PREFIX "C:/Vishrut/Programming/PersonalProjects/CellularAutomata/out/install/Clang")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Vishrut/Programming/PersonalProjects/GameOfLife/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Vishrut/Programming/PersonalProjects/CellularAutomata/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

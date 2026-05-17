@@ -2,9 +2,11 @@
 #include <SDL.h>
 #include <vector>
 #include "Grid.h"
+#include "Input.h"
 
 constexpr int WINDOW_HEIGHT = 800;
 constexpr int WINDOW_WIDTH = 800;
+
 
 int main(int, char**){
  
@@ -37,13 +39,13 @@ int main(int, char**){
 
     Grid::GridManager gridManager;
     SDL_Rect viewport;
-    viewport.w = 500;
-    viewport.h = 500;
+    viewport.w = WINDOW_WIDTH;
+    viewport.h = WINDOW_HEIGHT;
     viewport.x =  INT_CAST(WINDOW_WIDTH/2 - viewport.w/2);
     viewport.y = INT_CAST(WINDOW_HEIGHT/2 - viewport.h/2);
+    gridManager.Generate(20,viewport);
 
-    gridManager.Generate(30,viewport);
-
+    Input input;
     SDL_Event e;
     bool quit = false;
     SDL_SetRenderDrawColor(renderer, 0, 0,0, 255);
@@ -53,13 +55,13 @@ int main(int, char**){
         while (SDL_PollEvent(&e)) 
         {
             if (e.type == SDL_QUIT) quit = true;
-           
+            input.HandleEvent(e);
         }
 
         SDL_SetRenderDrawColor(renderer, 0, 0,0, 255);
         SDL_RenderClear(renderer);
         gridManager.Render(renderer);
-        gridManager.Update();
+        gridManager.Update(input);
         SDL_RenderPresent(renderer); 
     }
     
